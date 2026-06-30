@@ -1,0 +1,270 @@
+{
+  "sentence_types": {
+	"declarative": {
+	  "weight": 30,
+	  "templates": [
+		"[Determiners] [Adjectives] [Nouns] [Verbs] [Adverbs].",
+		"[Determiners] [Nouns] [Verbs] [Prepositions] [Determiners] [Adjectives] [Nouns].",
+		"[Determiners] [Adjectives] [Nouns] [Verbs] [Conjunctions] [Determiners] [Nouns] [Verbs].",
+		"[Determiners] [MythicalNouns] [Verbs] beneath [Determiners] [NatureNouns].",
+		"[Determiners] [ComplexAdjectives] [ComplexNouns] [ComplexVerbs] endlessly.",
+		"[Determiners] [ArcaneNouns] [ArcaneVerbs] within [Determiners] [ForbiddenNouns].",
+		"[Determiners] [NatureNouns] [NaturalVerbs] across [Determiners] [NatureNouns].",
+		"[Determiners] [ForbiddenAdjectives] [ForbiddenNouns] [ForbiddenVerbs] silently.",
+		"[Determiners] [ArcaneAdjectives] [Nouns] [ArcaneVerbs] through [Determiners] [ComplexNouns].",
+		"[Determiners] [MythicalAdjectives] [MythicalNouns] [MythicalVerbs] near [Determiners] [NatureNouns].",
+		"[Determiners] [ComplexNouns] [ComplexVerbs] while [Determiners] [ArcaneNouns] glow.",
+		"[Determiners] [Nouns] [Verbs] because [Determiners] [ForbiddenNouns] awaken.",
+		"[Determiners] [Adjectives] [ArcaneNouns] [ArcaneVerbs] beneath cursed skies.",
+		"[Determiners] [NatureNouns] [NaturalVerbs] while [Determiners] [Nouns] watch.",
+		"[Determiners] [ForbiddenNouns] [ForbiddenVerbs] beyond [Determiners] [NatureNouns].",
+		"[Determiners] [SacredAdjectives] [SacredNouns] [MagicVerbs] eternally.",
+		"[Determiners] [DarkAdjectives] [DarkNouns] [DarkVerbs] beneath the eclipse.",
+		"[Determiners] [CelestialNouns] [ArcaneVerbs] across forgotten heavens.",
+		"[Determiners] [CreatureNouns] [CombatVerbs] while [Determiners] [LivingNouns] flee.",
+		"[Determiners] [MysticAdjectives] [MagicNouns] [MagicVerbs] through [Determiners] [InteriorNouns]."
+	  ]
+	},
+
+	"imperative": {
+	  "weight": 18,
+	  "templates": [
+		"[SimpleVerbs] [Determiners] [ArcaneNouns] immediately.",
+		"[ArcaneVerbs] [Determiners] [ArcaneNouns] before dawn.",
+		"[ForbiddenVerbs] not [Determiners] [ForbiddenNouns].",
+		"[ComplexVerbs] [Determiners] [MythicalNouns] beneath [Determiners] [NatureNouns].",
+		"[NaturalVerbs] through [Determiners] [NatureNouns].",
+		"[SimpleVerbs] [Determiners] [Nouns] and [ArcaneVerbs] the ritual.",
+		"[ArcaneVerbs] every [ArcaneNouns] within the sanctum.",
+		"[SimpleVerbs] toward [Determiners] [NatureNouns] before sunset.",
+		"[ComplexVerbs] the cursed [ForbiddenNouns].",
+		"[MythicalVerbs] beneath [Determiners] [MythicalAdjectives] skies.",
+		"[ArcaneVerbs] [Determiners] [ForbiddenNouns] through blood and flame.",
+		"[SimpleVerbs] the gate while [Determiners] [ForbiddenNouns] sleep.",
+		"[CombatVerbs] [Determiners] [CreatureNouns] before nightfall.",
+		"[MagicVerbs] [Determiners] [MagicNouns] within the sanctum.",
+		"[DarkVerbs] every [DarkNouns] before the moon rises.",
+		"[MovementVerbs] across [Determiners] [NatureNouns] without fear.",
+		"[ThoughtVerbs] upon [Determiners] [SacredNouns] in silence."
+	  ]
+	},
+
+	"interrogative": {
+	  "weight": 12,
+	  "templates": [
+		"Why did [Determiners] [Nouns] [Verbs] [Determiners] [Nouns]?",
+		"Can [Determiners] [Adjectives] [Nouns] [Verbs] [Adverbs]?",
+		"When will [Determiners] [Nouns] [Verbs] [Prepositions] [Determiners] [Nouns]?",
+		"Whose [MythicalNouns] [MythicalVerbs] within [Determiners] [NatureNouns]?",
+		"How does [Determiners] [ComplexNouns] [ComplexVerbs] beyond reality?",
+		"Why do [Determiners] [ForbiddenNouns] whisper beneath the earth?",
+		"Who awakened [Determiners] [ArcaneNouns] within the ruins?",
+		"Where shall [Determiners] [MythicalNouns] [MythicalVerbs] tonight?",
+		"Can [Determiners] [ArcaneAdjectives] [Nouns] survive the void?",
+		"What [ForbiddenNouns] [ForbiddenVerbs] beneath the cathedral?",
+		"Why does [Determiners] [NatureNouns] tremble at midnight?",
+		"How can [Determiners] [ComplexAdjectives] [ComplexNouns] endure eternity?",
+		"Why do [Determiners] [DarkNouns] [DarkVerbs] beneath sacred halls?",
+		"Can [Determiners] [SacredAdjectives] [SacredNouns] resist corruption?",
+		"Which [CreatureNouns] [CombatVerbs] beyond the mountains?",
+		"How shall [Determiners] [MagicNouns] [MagicVerbs] during the eclipse?"
+	  ]
+	},
+
+	"exclamatory": {
+	  "weight": 10,
+	  "templates": [
+		"What [Determiners] [Adjectives] [Nouns]!",
+		"How [Adverbs] [Determiners] [Nouns] [Verbs]!",
+		"Stop! [Determiners] [Nouns] [Verbs] [Adverbs]!",
+		"Behold! [Determiners] [MythicalNouns] [MythicalVerbs] again!",
+		"Silence! [Determiners] [ForbiddenNouns] awaken!",
+		"Look! [Determiners] [ArcaneAdjectives] [ArcaneNouns] glow!",
+		"Beware! [Determiners] [ForbiddenAdjectives] [ForbiddenNouns] approach!",
+		"How fiercely [Determiners] [MythicalNouns] roar!",
+		"Witness! [Determiners] [ComplexNouns] ascend!",
+		"Fear! [Determiners] [ForbiddenNouns] consume the stars!",
+		"Glory! [Determiners] [SacredNouns] shine above!",
+		"Dread! [Determiners] [DarkNouns] rise again!",
+		"Tremble! [Determiners] [CreatureNouns] [CombatVerbs] nearby!"
+	  ]
+	},
+
+	"narrative": {
+	  "weight": 28,
+	  "templates": [
+		"[Adverbs], [Determiners] [Nouns] [Verbs] [Conjunctions] [Determiners] [Nouns] [Verbs].",
+		"While [Determiners] [Nouns] [Verbs], [Determiners] [Adjectives] [Nouns] [Verbs] [Prepositions] [Determiners] [Nouns].",
+		"[Determiners] [Nouns] [Verbs] [Adverbs], yet [Determiners] [Nouns] [Verbs] nothing.",
+		"Beyond [Determiners] [NatureNouns], [Determiners] [MythicalNouns] [MythicalVerbs] eternally.",
+		"Inside [Determiners] [ArcaneNouns], [Determiners] [ComplexAdjectives] [Nouns] [Verbs].",
+		"[Adverbs], [Determiners] [ForbiddenNouns] [ForbiddenVerbs] through the kingdom.",
+		"Before sunrise, [Determiners] [ArcaneAdjectives] [ArcaneNouns] [ArcaneVerbs] beneath the ruins.",
+		"Near [Determiners] [NatureNouns], [Determiners] [ComplexNouns] [ComplexVerbs] alone.",
+		"After the storm, [Determiners] [MythicalNouns] [MythicalVerbs] across the valley.",
+		"Within the crypt, [Determiners] [ForbiddenAdjectives] [ForbiddenNouns] whispered endlessly.",
+		"During winter, [Determiners] [NatureNouns] [NaturalVerbs] while kingdoms burned.",
+		"[Determiners] [ArcaneNouns] [ArcaneVerbs] because [Determiners] [ForbiddenNouns] awakened.",
+		"At midnight, [Determiners] [MythicalAdjectives] [MythicalNouns] descended silently.",
+		"[Determiners] [ComplexNouns] [ComplexVerbs] although [Determiners] [ArcaneNouns] shattered.",
+		"Inside forgotten halls, [Determiners] [ForbiddenNouns] [ForbiddenVerbs] forever.",
+		"Beneath [Determiners] [CelestialNouns], [Determiners] [MagicNouns] [MagicVerbs] quietly.",
+		"Near [Determiners] [InteriorNouns], [Determiners] [DarkAdjectives] [DarkNouns] gathered.",
+		"[Adverbs], [Determiners] [CreatureNouns] [CombatVerbs] across ruined kingdoms.",
+		"Within sacred ruins, [Determiners] [SacredAdjectives] [SacredNouns] glowed eternally."
+	  ]
+	},
+
+	"ritual": {
+	  "weight": 15,
+	  "templates": [
+		"Invoke [Determiners] [ArcaneAdjectives] [ArcaneNouns] before [Determiners] [NatureNouns].",
+		"Seal [Determiners] [ForbiddenNouns] within [Determiners] [ArcaneNouns].",
+		"Awaken [Determiners] [ComplexNouns] beyond [Determiners] [NatureNouns].",
+		"Mark [Determiners] [MythicalNouns] beneath [Determiners] [ComplexAdjectives] skies.",
+		"Offer [Determiners] [Nouns] unto [Determiners] [ForbiddenNouns].",
+		"Bind [Determiners] [ArcaneNouns] using forgotten blood.",
+		"Channel [Determiners] [ArcaneNouns] through sacred flame.",
+		"Summon [Determiners] [MythicalNouns] before the final eclipse.",
+		"Sacrifice [Determiners] [Nouns] so [Determiners] [ForbiddenNouns] sleep.",
+		"Whisper unto [Determiners] [ArcaneNouns] beneath the moon.",
+		"Carve [Determiners] [ForbiddenAdjectives] sigils across the altar.",
+		"Awaken [Determiners] [ForbiddenNouns] through eternal suffering.",
+		"Consecrate [Determiners] [SacredNouns] beneath [Determiners] [CelestialNouns].",
+		"Channel [Determiners] [MagicNouns] through [Determiners] [InteriorNouns].",
+		"Seal [Determiners] [DarkNouns] beyond mortal sight."
+	  ]
+	},
+
+	"forbidden": {
+	  "weight": 5,
+	  "templates": [
+		"The eye beneath [Determiners] [NatureNouns] already knows your name.",
+		"Do not answer when [Determiners] [ForbiddenNouns] [ForbiddenVerbs].",
+		"Your reflection [Verbs] beyond [Determiners] [ArcaneNouns].",
+		"The cathedral [Verbs] while [Determiners] [MythicalNouns] bleed.",
+		"Every word [Verbs] closer to the void.",
+		"The walls inside [Determiners] [ArcaneNouns] still breathe.",
+		"No shadow survives after [Determiners] [ForbiddenNouns] awaken.",
+		"The moon remembers every [ForbiddenNouns] ever spoken.",
+		"Inside forgotten crypts, [Determiners] [ForbiddenNouns] whisper your fate.",
+		"Even [Determiners] [MythicalNouns] fear the endless abyss.",
+		"The stars vanish whenever [Determiners] [ForbiddenNouns] rise.",
+		"Beyond reality, [Determiners] [ArcaneNouns] hunger eternally.",
+		"No prayer can silence [Determiners] [DarkNouns].",
+		"[Determiners] [SacredNouns] decay beneath forgotten heavens.",
+		"Inside [Determiners] [InteriorNouns], [Determiners] [DarkNouns] wait eternally."
+	  ]
+	},
+
+	"command": {
+	  "weight": 8,
+	  "templates": [
+		"You must [SimpleVerbs] [Determiners] [ArcaneNouns].",
+		"You shall protect [Determiners] [NatureNouns].",
+		"You will never awaken [Determiners] [ForbiddenNouns].",
+		"You must recover [Determiners] [ArcaneAdjectives] relics.",
+		"You shall destroy [Determiners] [ForbiddenNouns] before dawn.",
+		"You will guard [Determiners] [MythicalNouns] beneath the mountains.",
+		"You must cross [Determiners] [NatureNouns] alone.",
+		"You shall obey [Determiners] [ComplexNouns].",
+		"You will seal [Determiners] [ArcaneNouns] forever.",
+		"You must survive when [Determiners] [ForbiddenNouns] awaken.",
+		"You shall protect [Determiners] [SacredNouns] from corruption.",
+		"You must destroy [Determiners] [DarkNouns] before sunset.",
+		"You shall guide [Determiners] [CreatureNouns] across the wasteland."
+	  ]
+	},
+
+	"command_imperative": {
+	  "weight": 6,
+	  "templates": [
+		"Quickly [SimpleVerbs] [Determiners] [Nouns]!",
+		"Immediately [ArcaneVerbs] [Determiners] [ArcaneNouns]!",
+		"Never awaken [Determiners] [ForbiddenNouns]!",
+		"Protect [Determiners] [NatureNouns] at all costs!",
+		"Destroy [Determiners] [ForbiddenAdjectives] [ForbiddenNouns]!",
+		"Retrieve [Determiners] [ArcaneNouns] from the ruins!",
+		"Ride toward [Determiners] [NatureNouns] before sunset!",
+		"Seal the gates before [Determiners] [ForbiddenNouns] emerge!",
+		"Escape while [Determiners] [MythicalNouns] sleep!",
+		"Defend the altar against [Determiners] [ForbiddenNouns]!",
+		"Guard [Determiners] [SacredNouns] with your life!",
+		"Banish [Determiners] [DarkNouns] from the sanctum!",
+		"Summon [Determiners] [MagicNouns] before midnight!"
+	  ]
+	},
+
+	"command_declarative": {
+	  "weight": 4,
+	  "templates": [
+		"The king commands you to [SimpleVerbs] [Determiners] [ArcaneNouns].",
+		"The ancient order demands protection of [Determiners] [NatureNouns].",
+		"The council forbids the summoning of [Determiners] [ForbiddenNouns].",
+		"The prophecy declares that [Determiners] [MythicalNouns] shall rise again.",
+		"The priests command silence within [Determiners] [ArcaneNouns].",
+		"The queen orders destruction of [Determiners] [ForbiddenNouns].",
+		"The ritual requires sacrifice before [Determiners] [NatureNouns].",
+		"The elders demand recovery of [Determiners] [ArcaneNouns].",
+		"The oracle warns against awakening [Determiners] [ForbiddenNouns].",
+		"The crown commands every warrior to cross [Determiners] [NatureNouns].",
+		"The sacred order protects [Determiners] [SacredNouns] from ruin.",
+		"The prophecy warns that [Determiners] [DarkNouns] shall awaken.",
+		"The council demands sealing of [Determiners] [MagicNouns] forever."
+	  ]
+	}
+  },
+  
+  
+  "word_categories": {
+	"Nouns": ["simple","mundane","complex","nature","mythical","arcane","forbidden","interior","celestial","soul"],
+	"Verbs": ["simple","normal","complex","aggressive","natural","mythical","arcane","ritual","forbidden","thought"],
+	"Adjectives": ["simple","normal","complex","natural","mythical","arcane","unstable","divine","forbidden"],
+	"NatureNouns": ["nature"],
+	"MythicalNouns": ["mythical"],
+	"ForbiddenNouns": ["forbidden"],
+	"ArcaneNouns": ["arcane"],
+	"ComplexNouns": ["complex"],
+	"InteriorNouns": ["interior"],
+	"SoulNouns": ["soul"],
+	"CelestialNouns": ["celestial"],
+	"VoidNouns": ["forbidden","arcane","celestial"],
+	"DarkNouns": ["forbidden","mythical","soul"],
+	"SacredNouns": ["arcane","celestial","soul"],
+	"MagicNouns": ["arcane","forbidden","soul"],
+	"CreatureNouns": ["simple","mythical"],
+	"LivingNouns": ["simple","complex","mythical"],
+	"SimpleVerbs": ["simple"],
+	"NormalVerbs": ["normal"],
+	"ComplexVerbs": ["complex"],
+	"NaturalVerbs": ["natural"],
+	"MythicalVerbs": ["mythical"],
+	"ArcaneVerbs": ["arcane"],
+	"ForbiddenVerbs": ["forbidden"],
+	"RitualVerbs": ["ritual"],
+	"ThoughtVerbs": ["thought"],
+	"CombatVerbs": ["simple","aggressive"],
+	"MagicVerbs": ["arcane","ritual","mythical"],
+	"DarkVerbs": ["forbidden","aggressive"],
+	"MovementVerbs": ["simple","natural"],
+	"SimpleAdjectives": ["simple"],
+	"NormalAdjectives": ["normal"],
+	"ComplexAdjectives": ["complex"],
+	"NaturalAdjectives": ["natural"],
+	"MythicalAdjectives": ["mythical"],
+	"ArcaneAdjectives": ["arcane"],
+	"ForbiddenAdjectives": ["forbidden"],
+	"DivineAdjectives": ["divine"],
+	"DarkAdjectives": ["forbidden","unstable"],
+	"SacredAdjectives": ["divine","arcane"],
+	"MysticAdjectives": ["arcane","mythical"],
+	"WeatherAdjectives": ["natural"],
+	"UnstableAdjectives": ["unstable"],
+	"Determiners": ["determiners"],
+	"Prepositions": ["prepositions"],
+	"Conjunctions": ["conjunctions"],
+	"Adverbs": ["adverbs"],
+	"Interrogatives": ["interrogatives"]
+  }
+
+}

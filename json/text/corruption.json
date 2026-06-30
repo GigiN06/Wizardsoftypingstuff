@@ -1,0 +1,408 @@
+{
+  "corruption_stages": {
+    "stable": {
+      "minimum_sanity": 75,
+      "description": "Reality remains coherent and predictable.",
+
+      "ui_intensity": 0,
+      "event_frequency_multiplier": 0.0
+    },
+
+    "fractured": {
+      "minimum_sanity": 50,
+      "description": "Small inconsistencies begin surfacing around the wizard.",
+
+      "ui_intensity": 0.2,
+      "event_frequency_multiplier": 0.4
+    },
+
+    "unstable": {
+      "minimum_sanity": 30,
+      "description": "Perception, sound, and timing begin drifting apart.",
+
+      "ui_intensity": 0.45,
+      "event_frequency_multiplier": 0.8
+    },
+
+    "distorted": {
+      "minimum_sanity": 15,
+      "description": "Language and reality no longer fully agree.",
+
+      "ui_intensity": 0.7,
+      "event_frequency_multiplier": 1.2
+    },
+
+    "void_touched": {
+      "minimum_sanity": 0,
+      "description": "Reality becomes individualized and hostile.",
+
+      "ui_intensity": 1.0,
+      "event_frequency_multiplier": 1.8
+    }
+  },
+
+  "hallucination_fragments": [
+    {
+      "text": "did the bell ring twice?",
+      "weight": 10,
+      "minimum_stage": "fractured",
+      "tags": ["audio", "bell"]
+    },
+
+    {
+      "text": "someone stopped typing",
+      "weight": 8,
+      "minimum_stage": "fractured",
+      "tags": ["multiplayer"]
+    },
+
+    {
+      "text": "the sentence felt different",
+      "weight": 7,
+      "minimum_stage": "unstable",
+      "tags": ["typing"]
+    },
+
+    {
+      "text": "the cathedral sounds closer tonight",
+      "weight": 4,
+      "minimum_stage": "unstable",
+      "tags": ["environment"]
+    },
+
+    {
+      "text": "the fire crackled like speech",
+      "weight": 6,
+      "minimum_stage": "unstable",
+      "tags": ["audio"]
+    },
+
+    {
+      "text": "something echoed after the whisper",
+      "weight": 5,
+      "minimum_stage": "distorted",
+      "tags": ["audio"]
+    },
+
+    {
+      "text": "the moonlight shifted briefly",
+      "weight": 4,
+      "minimum_stage": "fractured",
+      "tags": ["visual"]
+    },
+
+    {
+      "text": "someone heard it differently",
+      "weight": 5,
+      "minimum_stage": "distorted",
+      "tags": ["multiplayer", "audio"]
+    },
+
+    {
+      "text": "the hall feels longer now",
+      "weight": 3,
+      "minimum_stage": "distorted",
+      "tags": ["environment"]
+    },
+
+    {
+      "text": "the last word looked unfamiliar",
+      "weight": 6,
+      "minimum_stage": "unstable",
+      "tags": ["typing"]
+    },
+
+    {
+      "text": "your reflection blinked late",
+      "weight": 3,
+      "minimum_stage": "distorted",
+      "tags": ["visual"]
+    },
+
+    {
+      "text": "someone whispered before the sound arrived",
+      "weight": 2,
+      "minimum_stage": "void_touched",
+      "tags": ["audio", "timing"]
+    },
+
+    {
+      "text": "the cursor paused for a moment",
+      "weight": 5,
+      "minimum_stage": "unstable",
+      "tags": ["typing"]
+    },
+
+    {
+      "text": "the ink looked wet again",
+      "weight": 3,
+      "minimum_stage": "distorted",
+      "tags": ["visual"]
+    },
+
+    {
+      "text": "someone else finished your sentence",
+      "weight": 2,
+      "minimum_stage": "void_touched",
+      "tags": ["multiplayer", "typing"]
+    }
+  ],
+
+  "false_information_events": [
+    {
+      "text": "your orb fractured",
+      "truth": false,
+      "weight": 5,
+      "minimum_stage": "unstable"
+    },
+
+    {
+      "text": "wizard_02 stole 40 gold",
+      "truth": false,
+      "weight": 4,
+      "minimum_stage": "distorted"
+    },
+
+    {
+      "text": "a forbidden scroll appeared in the market",
+      "truth": false,
+      "weight": 3,
+      "minimum_stage": "distorted"
+    },
+
+    {
+      "text": "your inventory feels heavier",
+      "truth": false,
+      "weight": 4,
+      "minimum_stage": "unstable"
+    },
+
+    {
+      "text": "someone countered your spell",
+      "truth": false,
+      "weight": 5,
+      "minimum_stage": "distorted"
+    },
+
+    {
+      "text": "the shopkeeper ignored your purchase",
+      "truth": false,
+      "weight": 3,
+      "minimum_stage": "unstable"
+    },
+
+    {
+      "text": "you heard your own voice nearby",
+      "truth": false,
+      "weight": 2,
+      "minimum_stage": "void_touched"
+    }
+  ],
+
+  "typing_distortions": {
+    "enabled": true,
+
+    "effects": {
+      "delayed_character_chance": 2,
+      "duplicate_character_chance": 1,
+      "minor_spacing_error_chance": 2,
+      "word_swap_chance": 1,
+      "punctuation_shift_chance": 2,
+      "rare_character_drop_chance": 1
+    },
+
+    "sentence_drift": {
+      "enabled": true,
+
+      "maximum_word_changes": 1,
+
+      "rare_replacement_chance": 3,
+
+      "replacement_pool": [
+        "void",
+        "bell",
+        "watcher",
+        "cathedral",
+        "whisper",
+        "husk"
+      ]
+    },
+
+    "keyboard_distortion": {
+      "enabled": true,
+
+      "minimum_stage": "void_touched",
+
+      "maximum_shifted_keys": 2,
+
+      "shift_duration_seconds": 8
+    }
+  },
+
+  "audio_discrepancies": {
+    "enabled": true,
+
+    "effects": [
+      {
+        "name": "distant_bell_delay",
+        "weight": 10,
+        "minimum_stage": "fractured"
+      },
+
+      {
+        "name": "partial_whisper_fragment",
+        "weight": 4,
+        "minimum_stage": "unstable"
+      },
+
+      {
+        "name": "extra_footstep",
+        "weight": 5,
+        "minimum_stage": "unstable"
+      },
+
+      {
+        "name": "fireplace_voice_pattern",
+        "weight": 3,
+        "minimum_stage": "distorted"
+      },
+
+      {
+        "name": "faint_breathing",
+        "weight": 2,
+        "minimum_stage": "void_touched"
+      },
+
+      {
+        "name": "echo_desync",
+        "weight": 4,
+        "minimum_stage": "distorted"
+      },
+
+      {
+        "name": "distant_laughter",
+        "weight": 2,
+        "minimum_stage": "void_touched"
+      },
+
+      {
+        "name": "incorrect_key_press_sound",
+        "weight": 5,
+        "minimum_stage": "unstable"
+      }
+    ]
+  },
+
+  "screen_effects": {
+    "enabled": true,
+
+    "effects": [
+      {
+        "name": "subtle_text_flicker",
+        "weight": 10,
+        "minimum_stage": "fractured"
+      },
+
+      {
+        "name": "brief_shadow_pass",
+        "weight": 4,
+        "minimum_stage": "unstable"
+      },
+
+      {
+        "name": "minor_brightness_shift",
+        "weight": 8,
+        "minimum_stage": "fractured"
+      },
+
+      {
+        "name": "cursor_desync",
+        "weight": 3,
+        "minimum_stage": "distorted"
+      },
+
+      {
+        "name": "single_frame_text_blur",
+        "weight": 4,
+        "minimum_stage": "unstable"
+      },
+
+      {
+        "name": "phantom_cursor",
+        "weight": 2,
+        "minimum_stage": "void_touched"
+      },
+
+      {
+        "name": "background_warp",
+        "weight": 2,
+        "minimum_stage": "void_touched"
+      }
+    ]
+  },
+
+  "multiplayer_perception_drift": {
+    "enabled": true,
+
+    "effects": {
+      "sentence_variation_chance": 4,
+      "audio_timing_difference_ms": 1200,
+      "ambient_layer_variation_chance": 8,
+      "rare_missing_sound_chance": 2,
+      "false_player_message_chance": 3
+    }
+  },
+
+  "event_weights": {
+    "hallucination_fragment": 20,
+    "audio_discrepancy": 12,
+    "screen_effect": 8,
+    "typing_distortion": 5,
+    "sentence_drift": 4,
+    "false_information_event": 6
+  },
+
+  "timing_rules": {
+    "minimum_seconds_between_events": 18,
+    "maximum_chain_events": 2,
+    "cooldown_after_major_effect": 45,
+    "quiet_period_chance": 35,
+
+    "event_frequency_scaling": {
+      "enabled": true,
+      "increase_per_round": 0.05
+    }
+  },
+
+  "reality_break_events": [
+    {
+      "text": "THE BELLS ARE OUT OF SYNC",
+      "minimum_stage": "void_touched"
+    },
+
+    {
+      "text": "SOMEONE ELSE IS READING THIS",
+      "minimum_stage": "void_touched"
+    },
+
+    {
+      "text": "THE SENTENCE CHANGED AGAIN",
+      "minimum_stage": "void_touched"
+    },
+
+    {
+      "text": "THE CATHEDRAL IS LISTENING",
+      "minimum_stage": "void_touched"
+    }
+  ],
+
+  "runtime_flags": {
+    "hallucinations_enabled": true,
+    "audio_discrepancies_enabled": true,
+    "screen_effects_enabled": true,
+    "typing_distortions_enabled": true,
+    "multiplayer_drift_enabled": true,
+    "false_information_enabled": true,
+    "reality_breaks_enabled": true
+  }
+}

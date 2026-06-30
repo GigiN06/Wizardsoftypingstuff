@@ -1,0 +1,39 @@
+[
+    {
+        "id": "bread",
+        "display_name": "Bread",
+        "restore": 10,
+        "rarity": "common",
+        "craft_affinity": "earth"
+    },
+
+    {
+        "id": "mushroom_stew",
+        "display_name": "Mushroom Stew",
+        "restore": 15,
+        "rarity": "uncommon",
+        "craft_affinity": "decay"
+    },
+    {
+        "id": "black_bread",
+        "display_name": "Black Bread",
+        "restore": 10,
+        "rarity": "common",
+        "craft_affinity": "shadow"
+    },
+    {
+        "id": "salted_pork",
+        "display_name": "Salted Pork",
+        "restore": 30,
+        "rarity": "rare",
+        "craft_affinity": "blood"
+    },
+    {
+        "id": "roasted_chicken",
+        "display_name": "Roasted Chicken",
+        "restore": 18,
+        "rarity": "uncommon",
+        "craft_affinity": "fire"
+
+    }
+]

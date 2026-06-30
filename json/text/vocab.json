@@ -1,0 +1,233 @@
+{
+  "nouns": {
+	"simple": [
+	  "knight","mage","wizard","witch","sword","shield","castle","tower","dragon","wolf","crow",
+	  "king","queen","prince","princess","torch","forest","cave","stone","flame","staff","orb",
+	  "book","scroll","cloak","dagger","helm","throne","chain","gate","altar","monk","bard",
+	  "archer","goblin","troll","giant","beast","horse","raven","serpent","skull","hammer","axe",
+	  "bow","arrow","lantern","feast","coin","merchant","village","ruin","temple","prison",
+	  "bridge","camp","banner","crown","ring","crystal","candle","bread","window","grave",
+	  "harbor","bell","mirror"
+	],
+
+	"mundane": [
+	  "candle","tower","bread","forest","mirror","grave","lantern","bell","harbor","coin",
+	  "cloak","bridge","altar","window","chain","river","bucket","wagon","table","chair",
+	  "market","farm","well","road","inn","barn","kitchen","garden","gate","village",
+	  "cup","plate","hall","dock","fence","rope","cart","hut","chimney","cellar"
+	],
+
+	"complex": [
+	  "battlemage","spellbinder","runekeeper","stormcaller","shadowblade","doomknight","warlock",
+	  "necromancer","enchanter","sorcerer","illusionist","bloodmage","wyrmslayer","gravewarden",
+	  "cryptkeeper","beastmaster","highpriest","voidwalker","dreamweaver","moonseer","sunforger",
+	  "bladecaster","starreader","oathbreaker","dreadlord","flamewarden","frostbinder","ironclad",
+	  "windrider","shadowcaster","soulreaper","riftwalker","hexweaver","mistcaller","deathspeaker",
+	  "bonecollector","stormbringer","lightbearer","nightstalker","spiritbinder"
+	],
+
+	"nature": [
+	  "oak","pine","thorn","vine","river","waterfall","storm","rain","mist","fog","moon","sun",
+	  "star","mountain","valley","grove","swamp","marsh","glacier","frost","blizzard","breeze",
+	  "tempest","thunder","lightning","root","petal","flower","mushroom","ember","ash","sand",
+	  "desert","ocean","wave","reef","branch","leaf","meadow","wildfire","canyon","cliff",
+	  "snow","volcano","island","tide","forestfire","stream","water","grass","ivy"
+	],
+
+	"mythical": [
+	  "phoenix","griffin","hydra","kraken","wyrm","pegasus","chimera","basilisk","unicorn",
+	  "minotaur","cyclops","leviathan","gorgon","djinn","faerie","dryad","nymph","werewolf",
+	  "vampire","lich","specter","wraith","shade","spirit","ghost","demon","imp","succubus",
+	  "angel","valkyrie","drake","titan","colossus","oracle","sphinx","seer","familiar",
+	  "sprite","harpy","manticore"
+	],
+
+	"arcane": [
+	  "mana","rune","sigil","glyph","enchantment","curse","hex","ritual","incantation","relic",
+	  "artifact","tome","grimoire","potion","elixir","essence","aether","portal","dimension",
+	  "void","astral","coven","sanctum","focus","ward","totem","catalyst","phylactery",
+	  "crucible","cipher","revelation","prophecy","conduit","shard","keystone","obelisk",
+	  "mirror","reagent","familiar","spellbook","cathedral","monolith","convergence","archive",
+	  "beacon","altarstone","soulgem","rift","codex","sigilstone"
+	],
+
+	"forbidden": [
+	  "abyss","voidheart","bloodritual","soulchain","nightmare","plague","corruption","blight",
+	  "catacomb","sacrifice","heresy","doom","ruination","damnation","shadowflame","blackstone",
+	  "deathmark","soulfire","bonealtar","voidgate","hellspawn","darkwhisper","bloodmoon",
+	  "carrion","rot","decay","gravemist","skullthrone","chaosrift","forbiddenseal",
+	  "dreadsigil","crypt","soulwell","nightveil","voidspawn","doomspire","ashenking",
+	  "bloodveil","darkrelic","shadowcurse","parasite","abomination","husk","horror",
+	  "devourer","idol","eclipse"
+	],
+
+	"interior": [
+	  "hall","corridor","library","crypt","cellar","dungeon","sanctuary","chamber","catacomb",
+	  "vault","observatory","archive","laboratory","shrine","cathedral","towerroom","armory",
+	  "throneroom","basement","gallery","sanctum","chapel","study","passage","cavern"
+	],
+
+	"celestial": [
+	  "star","comet","nebula","constellation","eclipse","sun","moon","galaxy","meteor",
+	  "cosmos","heaven","firmament","aurora","supernova","voidstar","dawnstar","nightstar"
+	],
+
+	"soul": [
+	  "spirit","soul","phantom","memory","echo","essence","shade","ghost","remnant",
+	  "whisper","vision","apparition","wisp","specter","dream","thought"
+	]
+  },
+
+  "verbs": {
+	"simple": [
+	  "strike","slash","guard","march","hunt","ride","burn","freeze","summon","cast","chant",
+	  "hide","charge","crawl","climb","whisper","scream","forge","break","gather","search",
+	  "protect","attack","watch","travel","discover","follow","escape","conquer","defend"
+	],
+
+	"normal": [
+	  "whispers","burns","awakens","consumes","shatters","wanders","echoes","rises","waits",
+	  "watches","lingers","calls","follows","observes","trembles","stares","moves","falls",
+	  "returns","drifts"
+	],
+
+	"complex": [
+	  "obliterate","conjure","dominate","devour","transcend","illuminate","corrupt","resurrect",
+	  "empower","banish","awaken","invoke","channel","manipulate","shatter","consume","unleash",
+	  "withstand","fortify","disintegrate","teleport","decipher","subjugate","enthrall",
+	  "harvest","reclaim","ascend","transform","seal","unravel"
+	],
+
+	"aggressive": [
+	  "devours","bleeds","fractures","corrupts","pierces","erupts","hunts","obliterates",
+	  "destroys","ravages","crushes","shreds","slaughters","smashes","mauls","ruptures"
+	],
+
+	"natural": [
+	  "bloom","flow","grow","thunder","rain","erupt","drift","howl","glimmer","spark","whirl",
+	  "crash","echo","rustle","soar","crawl","flood","swarm","shine","spread","twist","melt",
+	  "shiver","glow","sway","ripple","storm","blaze","scatter","descend"
+	],
+
+	"mythical": [
+	  "haunt","curse","hex","possess","foretell","shapechange","enchant","bewitch","vanish",
+	  "materialize","roar","ascend","stalk","consume","slumber","prophesy","hunt","transform",
+	  "revive","ensnare","devastate","soar","lurk","breathefire","summonstorm","shadowstep",
+	  "mindbind","bloodhunt","soulsteal","nightcrawl"
+	],
+
+	"arcane": [
+	  "invoke","transmute","enchant","stabilize","seal","attune","imbue","siphon","dispel",
+	  "manifest","ritualize","infuse","channel","bind","focus","decipher","distort","weave",
+	  "concentrate","amplify","awaken","project","absorb","harmonize","synchronize","levitate",
+	  "teleport","shroud","anchor","resonate"
+	],
+
+	"ritual": [
+	  "invokes","summons","binds","seals","channels","conjures","awakens","transmutes",
+	  "offers","sacrifices","chants","draws","brands","marks","focuses","awakens"
+	],
+
+	"forbidden": [
+	  "sacrifice","corrupt","bleed","rot","decay","consume","damn","torment","infect","drain",
+	  "enslave","annihilate","defile","doom","shackle","rupture","poison","blight",
+	  "cursebind","soulrend","bloodbind","nightfall","voidcall","darken","haunt","smother",
+	  "devour","shattermind","bonebreak","hexmark"
+	],
+
+	"thought": [
+	  "dream","remember","ponder","question","mourn","fear","desire","imagine","recall",
+	  "wonder","suspect","believe","doubt","envision","study"
+	]
+  },
+
+  "adjectives": {
+	"simple": [
+	  "dark","bright","cold","hot","ancient","young","strong","weak","silent","loud","golden",
+	  "silver","iron","wooden","royal","wild","lost","hidden","sacred","cursed","noble",
+	  "brave","grim","lonely","swift","fierce","gentle","mighty","broken","eternal"
+	],
+
+	"normal": [
+	  "silent","ancient","forgotten","golden","burning","hollow","ashen","dim","dusty",
+	  "cold","faded","quiet","calm","shadowed","pale","dark"
+	],
+
+	"complex": [
+	  "battleworn","shadowforged","moonlit","sunblessed","stormbound","emberclad","frostveiled",
+	  "voidtouched","spellwoven","runeetched","bloodstained","soulbound","thorncovered",
+	  "mistshrouded","starforged","lightborn","nightmarish","dragonforged","windscarred",
+	  "flamekissed","ashen","cryptic","celestial","infernal","ethereal","arcane","forgotten",
+	  "immortal","eldritch","ominous"
+	],
+
+	"natural": [
+	  "stormy","rainy","misty","frozen","burning","windy","earthy","leafy","thorny","rocky",
+	  "icy","fiery","glacial","sunlit","moonlit","shadowed","wild","verdant","blooming",
+	  "swampy","ashen","stormborn","riverbound","forestborn","mountainous","tempestuous",
+	  "dusty","humid","lush","untamed"
+	],
+
+	"mythical": [
+	  "draconic","phoenixborn","spectral","ghostly","demonic","angelic","enchanted","bewitched",
+	  "cursed","divine","monstrous","legendary","mythic","haunted","ethereal","immortal",
+	  "shapeshifting","serpentine","runic","prophetic","eldritch","arcane","mystical",
+	  "fabled","celestial","infernal","otherworldly","twilightborn","voidspawned","soulmarked"
+	],
+
+	"arcane": [
+	  "magical","runic","enchanted","mystic","arcane","astral","ethereal","forbidden","occult",
+	  "ritualistic","sigiled","manafilled","spellbound","hexed","warded","imbued",
+	  "transcendent","shimmering","volatile","alchemical","planar","dimensional","aetheric",
+	  "voidcharged","phantasmal","sorcerous","maledicted","soulforged","starwoven","eldritch"
+	],
+
+	"unstable": [
+	  "fractured","bleeding","corrupted","cursed","twisted","rotting","unbound","shattered",
+	  "warped","unstable","broken","haunted","malformed","distorted"
+	],
+
+	"divine": [
+	  "radiant","eternal","holy","celestial","blessed","luminous","sacred","angelic",
+	  "heavenly","pure","golden","seraphic"
+	],
+
+	"forbidden": [
+	  "cursed","damned","blighted","corrupted","decaying","rotting","voidbound","bloodsoaked",
+	  "nightmarish","soulless","desecrated","haunted","twisted","abyssal","malignant",
+	  "doomridden","deathless","infernal","sinister","forsaken","shadowed","bonechilling",
+	  "plagueborn","hellforged","gravebound","voidscarred","ashen","blackened","hollow",
+	  "unholy"
+	]
+  },
+
+  "grammar": {
+	"determiners": [
+	  "the","a","this","that","these","those","each","every","some","many","few",
+	  "ancient","forgotten","sacred","cursed"
+	],
+
+	"prepositions": [
+	  "above","below","beneath","within","beyond","through","across","against","among",
+	  "beside","inside","outside","under","over","around","near","behind","before","after",
+	  "toward","throughout","between","upon","amidst"
+	],
+
+	"conjunctions": [
+	  "and","or","but","yet","for","nor","so","while","although","because","therefore",
+	  "however","meanwhile","whereas","unless","until","since","whenever","before","after"
+	],
+
+	"adverbs": [
+	  "silently","swiftly","grimly","boldly","mysteriously","carefully","brutally",
+	  "mercilessly","solemnly","violently","eerily","gracefully","magically","secretly",
+	  "patiently","furiously","eternally","recklessly","coldly","ominously","fearlessly",
+	  "suddenly","quietly","loudly","hauntingly","darkly","madly","fiercely","relentlessly",
+	  "mournfully","slowly","softly","endlessly","restlessly","solemnly"
+	],
+
+	"interrogatives": [
+	  "who","what","when","where","why","how","which","whom","whose","whither","whence"
+	]
+  }
+}

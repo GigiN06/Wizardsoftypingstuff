@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://cgi5coh6ubil8"]
+
+[ext_resource type="Script" path="res://script/player_input.gd" id="1_1fbax"]
+[ext_resource type="FontFile" uid="uid://dq4sr871n6lwb" path="res://misc/font/PixelifySans-VariableFont_wght.ttf" id="2_2hycp"]
+[ext_resource type="Script" path="res://script/Menu.gd" id="2_serh4"]
+[ext_resource type="FontFile" uid="uid://bylovaixsdvk6" path="res://misc/font/PixelifySans-Bold.ttf" id="3_8oy8e"]
+[ext_resource type="Script" path="res://script/incantaion/inc_show.gd" id="5_5ibm3"]
+[ext_resource type="Script" path="res://script/inventory/Inventory.gd" id="6_vanth"]
+[ext_resource type="Script" path="res://script/incantaion/Inc-type.gd" id="6_ykc3d"]
+[ext_resource type="Script" path="res://script/Network/Network.gd" id="8_wq5gd"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_1fbax")
+
+[node name="Menu" type="Node2D" parent="."]
+script = ExtResource("2_serh4")
+
+[node name="Stuff to type" type="RichTextLabel" parent="Menu"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Tower" type="Node2D" parent="."]
+
+[node name="Incantation" type="Node2D" parent="Tower"]
+position = Vector2(337.5, 328)
+
+[node name="Inc_show" type="RichTextLabel" parent="Tower/Incantation"]
+offset_left = -297.0
+offset_top = -309.0
+offset_right = 345.0
+offset_bottom = 288.0
+scale = Vector2(0.990705, 1)
+theme_override_fonts/normal_font = ExtResource("2_2hycp")
+theme_override_fonts/bold_font = ExtResource("3_8oy8e")
+theme_override_font_sizes/normal_font_size = 30
+fit_content = true
+script = ExtResource("5_5ibm3")
+
+[node name="Inc-type" type="RichTextLabel" parent="Tower/Incantation"]
+offset_left = -297.0
+offset_top = -309.0
+offset_right = 345.0
+offset_bottom = 288.0
+scale = Vector2(0.990705, 1)
+theme_override_fonts/normal_font = ExtResource("2_2hycp")
+theme_override_fonts/bold_font = ExtResource("3_8oy8e")
+theme_override_font_sizes/normal_font_size = 30
+fit_content = true
+script = ExtResource("6_ykc3d")
+
+[node name="Inventory" type="Node2D" parent="Tower"]
+script = ExtResource("6_vanth")
+
+[node name="Shop" type="Node2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Shop"]
+offset_left = 64.0
+offset_top = 174.0
+offset_right = 931.0
+offset_bottom = 599.0
+
+[node name="Network" type="Node" parent="."]
+script = ExtResource("8_wq5gd")

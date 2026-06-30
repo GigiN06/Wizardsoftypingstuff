@@ -1,0 +1,494 @@
+{
+  "difficulty": {
+    "easy": {
+      "minimum_word_length": 3,
+      "maximum_word_length": 6,
+      "sentence_length_multiplier": 0.8,
+      "special_character_chance": 0,
+
+      "allowed_categories": [
+        "simple",
+        "mundane",
+        "nature"
+      ],
+
+      "complex_template_chance": 0,
+      "forbidden_word_chance": 0,
+      "mythical_word_chance": 5,
+      "arcane_word_chance": 2,
+
+      "adverb_density": 10,
+      "comma_injection_chance": 2,
+      "rare_word_chance": 1,
+
+      "glitch_intensity": 0,
+
+      "instability_gain_multiplier": 0.6
+    },
+
+    "normal": {
+      "minimum_word_length": 4,
+      "maximum_word_length": 10,
+      "sentence_length_multiplier": 1.0,
+      "special_character_chance": 5,
+
+      "allowed_categories": [
+        "simple",
+        "complex",
+        "nature",
+        "mythical",
+        "arcane"
+      ],
+
+      "complex_template_chance": 10,
+      "forbidden_word_chance": 3,
+      "mythical_word_chance": 15,
+      "arcane_word_chance": 15,
+
+      "adverb_density": 20,
+      "comma_injection_chance": 8,
+      "rare_word_chance": 5,
+
+      "glitch_intensity": 3,
+
+      "instability_gain_multiplier": 1.0
+    },
+
+    "hard": {
+      "minimum_word_length": 6,
+      "maximum_word_length": 14,
+      "sentence_length_multiplier": 1.3,
+      "special_character_chance": 10,
+
+      "allowed_categories": [
+        "complex",
+        "nature",
+        "mythical",
+        "arcane",
+        "forbidden"
+      ],
+
+      "complex_template_chance": 25,
+      "forbidden_word_chance": 15,
+      "mythical_word_chance": 25,
+      "arcane_word_chance": 35,
+
+      "adverb_density": 35,
+      "comma_injection_chance": 15,
+      "rare_word_chance": 12,
+
+      "glitch_intensity": 8,
+
+      "instability_gain_multiplier": 1.5
+    },
+
+    "chaotic": {
+      "minimum_word_length": 8,
+      "maximum_word_length": 20,
+      "sentence_length_multiplier": 1.7,
+      "special_character_chance": 20,
+
+      "allowed_categories": [
+        "complex",
+        "mythical",
+        "arcane",
+        "forbidden",
+        "dark",
+        "soul",
+        "celestial"
+      ],
+
+      "complex_template_chance": 50,
+      "forbidden_word_chance": 40,
+      "mythical_word_chance": 50,
+      "arcane_word_chance": 60,
+
+      "adverb_density": 50,
+      "comma_injection_chance": 25,
+      "rare_word_chance": 30,
+
+      "glitch_intensity": 20,
+
+      "instability_gain_multiplier": 2.0
+    }
+  },
+
+  "generation_rules": {
+    "capitalize_sentences": true,
+    "allow_duplicate_words": false,
+
+    "minimum_sentence_words": 5,
+    "maximum_sentence_words": 18,
+
+    "rare_template_chance": 8,
+
+    "maximum_same_category_repeat": 2,
+
+    "allow_nested_templates": true,
+    "allow_multi_adjectives": true,
+    "allow_recursive_generation": false,
+
+    "dynamic_punctuation": true,
+    "punctuation_variance": true,
+
+    "weighted_category_selection": true,
+    "weighted_template_rotation": true,
+
+    "smart_category_filtering": true,
+    "grammar_correction_enabled": true,
+
+    "adaptive_sentence_scaling": true,
+
+    "sentence_fragment_chance": 5,
+    "template_chain_chance": 12,
+
+    "multi_clause_sentences": true,
+
+    "maximum_commas": 3,
+
+    "capitalize_ritual_words": true
+  },
+
+  "runtime_modifiers": {
+    "hallucination_word_injection": {
+      "enabled": true,
+      "chance": 5,
+      "minimum_instability": 150
+    },
+
+    "glitched_text_injection": {
+      "enabled": true,
+      "chance": 4,
+      "minimum_instability": 250
+    },
+
+    "reverse_sentence_chance": {
+      "enabled": true,
+      "chance": 2,
+      "minimum_instability": 500
+    },
+
+    "hidden_character_injection": {
+      "enabled": true,
+      "chance": 3,
+      "minimum_instability": 400
+    },
+
+    "forbidden_phrase_injection": {
+      "enabled": true,
+      "chance": 4,
+      "minimum_instability": 350
+    },
+
+    "duplicate_word_echo": {
+      "enabled": true,
+      "chance": 3,
+      "minimum_instability": 300
+    },
+
+    "random_case_mutation": {
+      "enabled": true,
+      "chance": 2,
+      "minimum_instability": 450
+    },
+
+    "missing_word_chance": {
+      "enabled": true,
+      "chance": 2,
+      "minimum_instability": 500
+    },
+
+    "symbol_corruption": {
+      "enabled": true,
+      "chance": 4,
+      "minimum_instability": 350
+    },
+
+    "ancient_language_injection": {
+      "enabled": true,
+      "chance": 3,
+      "minimum_instability": 600
+    },
+
+    "stutter_words": {
+      "enabled": true,
+      "chance": 5,
+      "minimum_instability": 200
+    },
+
+    "phantom_spaces": {
+      "enabled": true,
+      "chance": 2,
+      "minimum_instability": 550
+    },
+
+    "whisper_suffixes": {
+      "enabled": true,
+      "chance": 4,
+      "minimum_instability": 250
+    },
+
+    "mirror_sentence_generation": {
+      "enabled": true,
+      "chance": 1,
+      "minimum_instability": 800
+    }
+  },
+
+  "instability": {
+    "maximum": 1000,
+
+    "thresholds": {
+      "100": "rare_words",
+      "250": "forbidden_templates",
+      "500": "glitched_sentences",
+      "800": "reality_breaks",
+      "950": "void_language"
+    },
+
+    "effects": {
+      "word_scramble": {
+        "enabled": true,
+        "chance": 10
+      },
+
+      "sentence_reversal": {
+        "enabled": true,
+        "chance": 5
+      },
+
+      "false_memory_injection": {
+        "enabled": true,
+        "chance": 4
+      },
+
+      "ui_corruption": {
+        "enabled": true,
+        "chance": 8
+      },
+
+      "hidden_whispers": {
+        "enabled": true,
+        "chance": 6
+      }
+    }
+  },
+
+  "biome_bias": {
+    "crypt": {
+      "preferred_categories": [
+        "forbidden",
+        "dark",
+        "soul"
+      ],
+
+      "adverb_bonus": [
+        "silently",
+        "mournfully",
+        "coldly"
+      ]
+    },
+
+    "forest": {
+      "preferred_categories": [
+        "nature",
+        "mythical"
+      ],
+
+      "adverb_bonus": [
+        "quietly",
+        "swiftly",
+        "eerily"
+      ]
+    },
+
+    "cathedral": {
+      "preferred_categories": [
+        "arcane",
+        "sacred",
+        "celestial"
+      ],
+
+      "adverb_bonus": [
+        "solemnly",
+        "eternally"
+      ]
+    },
+
+    "void": {
+      "preferred_categories": [
+        "forbidden",
+        "arcane",
+        "dark"
+      ],
+
+      "adverb_bonus": [
+        "madly",
+        "ominously"
+      ]
+    }
+  },
+
+  "emotion_bias": {
+    "fear": {
+      "preferred_words": [
+        "void",
+        "shadow",
+        "whisper",
+        "abyss"
+      ],
+
+      "sentence_length_bonus": 1.3
+    },
+
+    "rage": {
+      "preferred_verbs": [
+        "destroy",
+        "consume",
+        "obliterate",
+        "shatter"
+      ],
+
+      "special_character_bonus": 5
+    },
+
+    "wonder": {
+      "preferred_words": [
+        "celestial",
+        "moon",
+        "ancient",
+        "eternal"
+      ],
+
+      "mythical_word_bonus": 10
+    },
+
+    "despair": {
+      "preferred_words": [
+        "rot",
+        "grave",
+        "ashes",
+        "decay"
+      ],
+
+      "forbidden_word_bonus": 15
+    }
+  },
+
+  "forbidden_language": {
+    "syllables": [
+      "vael",
+      "thur",
+      "nox",
+      "vyr",
+      "khal",
+      "oth",
+      "zhar",
+      "ul",
+      "vek",
+      "dra"
+    ],
+
+    "generation_rules": {
+      "minimum_syllables": 2,
+      "maximum_syllables": 5,
+
+      "allow_apostrophes": true,
+      "allow_hyphens": true
+    }
+  },
+
+  "sentence_memory": {
+    "repeat_recent_sentences": false,
+    "recent_sentence_buffer": 20,
+
+    "avoid_recent_words": true,
+
+    "recent_word_buffer": 50
+  },
+
+  "typing_modifiers": {
+    "same_letter_chain_chance": 15,
+    "hard_letter_bias": true,
+    "alternating_case_words": true,
+    "punctuation_burst_chance": 8,
+    "rapid_short_word_burst": true,
+    "tongue_twister_mode": true,
+    "double_letter_injection": true,
+    "complex_word_streaks": true
+  },
+
+  "boss_phases": {
+    "phase_1": {
+      "allowed_categories": [
+        "simple",
+        "nature"
+      ],
+
+      "difficulty_multiplier": 1.0
+    },
+
+    "phase_2": {
+      "allowed_categories": [
+        "arcane",
+        "complex",
+        "mythical"
+      ],
+
+      "difficulty_multiplier": 1.4
+    },
+
+    "phase_3": {
+      "allowed_categories": [
+        "forbidden",
+        "dark",
+        "soul"
+      ],
+
+      "difficulty_multiplier": 2.0
+    }
+  },
+
+  "reality_collapse": {
+    "enabled": true,
+
+    "reverse_text_chance": 25,
+    "sentence_overlap_chance": 15,
+
+    "phantom_words": true,
+    "ui_corruption": true,
+
+    "random_symbol_injection": true,
+
+    "fading_sentence_chance": 10
+  },
+
+  "category_weights": {
+    "simple": 40,
+    "mundane": 25,
+    "nature": 30,
+    "complex": 20,
+    "mythical": 15,
+    "arcane": 20,
+    "forbidden": 5,
+    "dark": 8,
+    "soul": 10,
+    "celestial": 6
+  },
+
+  "runtime_flags": {
+    "forbidden_sentences_enabled": true,
+    "hallucination_injection_enabled": true,
+    "dynamic_difficulty_enabled": true,
+    "adaptive_typing_speed_enabled": true,
+    "boss_corruption_enabled": true,
+    "lore_events_enabled": true,
+    "nightmare_mode_enabled": true,
+    "ritual_mode_enabled": true,
+    "sentence_decay_enabled": true,
+    "living_text_enabled": true,
+    "biome_bias_enabled": true,
+    "adaptive_theme_shift_enabled": true,
+    "rare_sequence_announcements_enabled": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "nouns": {
+        "player_added": [],
+        "event_words": [],
+        "seasonal_words": [],
+        "admin_words": []
+    },
+    "verbs": {
+        "player_added": [],
+        "event_words": [],
+        "seasonal_words": [],
+        "admin_words": []
+    },
+    "adjectives": {
+        "player_added": [],
+        "event_words": [],
+        "seasonal_words": [],
+        "admin_words": []
+    },
+    "grammar": {
+        "determiners": [],
+        "prepositions": [],
+        "conjunctions": [],
+        "adverbs": [],
+        "interrogatives": []
+    }
+}
